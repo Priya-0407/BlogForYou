@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="write.css">
+
+    <title>BlogForYou: Write</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><em>BlogForYou</em></div>
+        <ul>
+            <div class="menu">
+                <li><a href="/blog.html">Homepage</a></li>
+                <li><a href="/write.html">Write</a></li>
+            </div>
+        </ul>
+    </nav>
+    <div class="bg2"><img class="bg2" src="\images\bg2.png" alt="Error loading">
+    </div>
+    <header class="bg-text"><h3 class="bg-text">Create Your Own Blog</h3></header>
+    <div class="blog">
+        <h4 class="title-text">Title</h4>
+        <textarea type="text" class="title" placeholder="Title"></textarea>
+        <h4 class="article-text">Article</h4>
+        <textarea type="text" class="article" placeholder="Start Writing!"></textarea>
+    </div>
+    <div>
+        <input type="file" id="upload-image" accept="image/jpeg, image/png, image/jpg" hidden>
+        <label for="upload-image" class="image-btn">Upload Image</label>
+        <output></output>
+        <script src="image.js"></script>
+    </div>
+    <div class="post">
+        <button class="post-button">Post</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.logo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #3b0c02;
+    
+}
+li {
+    list-style: none;
+}
+.navbar {
+    background-color:#b29688;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.menu {
+    display: flex;
+    gap: 2em;
+    font-size: 15px;
+    
+  }
+.background-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 79em;
+    height: 35em;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+    color:black;
+}
+.bg-text {
+    position: absolute;
+    top: 1.5em;
+    left: 10em;
+    font-size:50px;
+    background-image: linear-gradient(to left,#3b0c02,#ba5d32);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    
+}
+.text {
+    position: absolute;
+    top:9em;
+    left:5em;
+    display: flex;
+    gap:18em;
+    font-size: 20px;
+    
+}
+.explore {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    color: #000;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.25s ease;
+}
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+ul:hover a {
+    color: #3b0c02;
+}
+ul:hover a:hover {
+    color:#ba5d32;
+    box-shadow: 0.2px 0 0 currentColor;
+}
